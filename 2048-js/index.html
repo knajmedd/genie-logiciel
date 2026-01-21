@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2048 (HTML/CSS/JS)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" tabindex="0">
+    <h1>Jeu 2048</h1>
+
+    <div class="topbar">
+      <div class="score">Score: <span id="score">0</span></div>
+      <div class="best">Meilleur: <span id="best">0</span></div>
+      <button id="newGame" class="btn">Nouveau</button>
+    </div>
+
+    <div id="board" class="board">
+      <!-- La grille sera rendue par JS -->
+    </div>
+
+    <div id="banner" class="banner" hidden></div>
+
+    <p class="hint">Utilisez les flèches du clavier ou glissez sur mobile.</p>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
