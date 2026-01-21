@@ -1,1 +1,0 @@
-bonnes pratiques pour créer un README.md
